@@ -131,3 +131,18 @@ select{
     background: white;
     color: #ff6f47;
 }
+@media only screen and (max-width: 650px){
+    header{
+        min-height: 10vh;
+        font-size: 3vh ;
+    }
+    form input{
+        border:none;
+        min-width: 13rem;
+        max-width: 15rem;
+        flex-direction: row-reverse;
+    }
+    .select{
+        width: 7rem;
+    }
+}
